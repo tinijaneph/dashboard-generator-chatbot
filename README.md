@@ -1,4 +1,4 @@
-# AI Employee Dashboard Agent – Technical & Product Specification
+# Technical Specification
 
 ## 1. Current Stack & Infrastructure
 
