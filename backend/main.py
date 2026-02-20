@@ -11,8 +11,8 @@ app = Flask(__name__)
 CORS(app, origins="*", allow_headers=["Content-Type"], methods=["GET", "POST", "OPTIONS"])
 
 # Initialize Vertex AI
-PROJECT_ID = os.environ.get("GCP_PROJECT_ID", "molten-album-478703-d8")
-LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
+PROJECT_ID = os.environ.get("GCP_PROJECT_ID", "...")
+LOCATION = os.environ.get("GCP_LOCATION", "europe-west4")
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
 # Gemini model
